@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>WriteUp Uno</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+  </head>
+  <body>
+  	<div class="container">
+  		<div class="row">
+  			<div class="col-md-d">
+  				<h1 class="text-center">First writeup! Oh, yea!</h1>
+  			</div>
+
+	  		<div>
+	  			<div class="col-md-d">
+	  				<h1 class="text-center"><a href="https://repl.it/">Repl.it</a></h1>
+	  			</div>
+	  		</div>
+  		</div>
+  		 
+  		 <div class="row">
+  		 	<div class="col-md-6">
+  		 		<table class="table table-bordered">
+  		 			<tr>
+  		 				<th>Primitives Types</th>
+  		 				<th>Examples</th>
+  		 			</tr>
+  		 			<tr>
+  		 				<td>Boolean</td>
+  		 				<td>true, false</td>
+  		 			</tr>
+  		 			<tr>
+  		 				<td>Number</td>
+  		 				<td>1, 5, 92, 34, 7</td>
+  		 			</tr>
+  		 			<tr>
+  		 				<td>String</td>
+  		 				<td>"dog", "Greece", "Bill Murray", "crap", "2"</td>
+  		 			</tr>
+  		 			<tr>
+  		 				<td>Null</td>
+  		 				<td>One value that is null</td>
+  		 			</tr>
+  		 			<tr>
+  		 				<td>Undefined</td>
+  		 				<td>One value that is undefine. A variable that is unassigned.</td>
+  		 			</tr>
+
+  		 		</table>
+  		 	</div>
+
+  		 	<div class="col-md-6">
+  		 		<table class="table table-bordered">
+  		 			<tr>
+  		 				<th>Comparison Operators</th>
+  		 				<th>Examples</th>
+  		 			</tr>
+  		 			<tr>
+  		 				<td>Equality (==)</td>
+  		 				<td>1 == '1' //true, null == undefined //true</td>
+  		 			</tr>
+  		 			<tr>
+  		 				<td>Identity/strict equality (===)</td>
+  		 				<td>3 === 3 //true, 2 === '2' //false</td>
+  		 			</tr>
+  		 			<tr>
+  		 				<td>Inequality (!=)</td>
+  		 				<td>3 != 2 //true, 2 !== '2' //false</td>
+  		 			</tr>
+  		 			<tr>
+  		 				<td>Non-identity (!==)</td>
+  		 				<td>3 !== '3' //true, 2 !== 3 //true</td>
+  		 			</tr>
+  		 			<tr>
+  		 				<td>Greater than (>)</td>
+  		 				<td>4 > 1 //true</td>
+  		 			</tr>
+  		 			<tr>
+  		 				<td>Greater than or equal (>=)</td>
+  		 				<td>5 >= 1 //true</td>
+  		 			</tr>
+  		 			<tr>
+  		 				<td>Less than (<)</td>
+  		 				<td>7 < 9 //true</td>
+  		 			</tr>
+  		 			<tr>
+  		 				<td>Less than or equal(<=)</td>
+  		 				<td>4 <= 1 //false</td>
+  		 			</tr>
+
+  		 		</table>
+  		 	</div>
+  		</div>
+
+  		 <div class="row">
+  		 	<div class="col-md-6">
+  		 		<table class="table table-bordered">
+  		 			<tr>
+  		 				<th>Logical Operators</th>
+  		 				<th>Examples</th>
+  		 			</tr>
+  		 			<tr>
+  		 				<td>Logical AND (&&)</td>
+  		 				<td>var1 && var2 // t && f true</td>
+  		 			</tr>
+  		 			<tr>
+  		 				<td>Logical OR (||)</td>
+  		 				<td>true || false //t || f true</td>
+  		 			</tr>
+  		 			<tr>
+  		 				<td>Logical NOT (!)</td>
+  		 				<td>!true; // !t returns false</td>
+  		 			</tr>
+  		 		</table>
+  		 	</div>
+  		 	
+  		 	<div class="col-md-6">
+  		 		<table class="table table-bordered">
+  		 			<tr>
+  		 				<th>Valid Variable Names</th>
+  		 				<th>Examples</th>
+  		 			</tr>
+  		 			<tr>
+  		 				<td>Reserved words</td>
+  		 				<td>var typeof //invalid</td>
+  		 			</tr>
+
+  		 			<tr>
+  		 				<td>Start with letter, underscore(_), or dollar sign ($)</td>
+  		 				<td>var k //valid, var _a //valid, var $ok // valid</td>
+  		 			</tr>
+  		 			<tr>
+  		 				<td>Unicode letters</td>
+  		 				<td>var å //valid</td>
+  		 			</tr>
+  		 		</table>
+  		 	</div>
+  		</div>
+
+  		 <div class="row">
+  		 	<div class="col-md-12">
+  		 		<table class="table table-bordered">
+  		 			<tr>
+  		 				<th>Control Structure</th>
+  		 				<th>Examples</th>
+  		 			</tr>
+  		 			<tr>
+  		 				<td>if</td>
+  		 				<td><code> if (condition) {
+							//code
+  		 				}</code></td>
+  		 			</tr>
+  		 			<tr>
+  		 				<td>for</td>
+  		 				<td><code> for (condition) {
+							//code
+  		 				}</code></td>
+  		 			</tr>
+  		 			<tr>
+  		 				<td>while</td>
+  		 				<td><code> while (condition) {
+							//code
+  		 				}</code></td>
+  		 			</tr>
+  		 		</table>
+  		 	</div>
+  		 </div>
+  	</div>
+
+   
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
